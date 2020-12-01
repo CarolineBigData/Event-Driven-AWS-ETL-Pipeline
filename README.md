@@ -7,3 +7,5 @@ In this project, I have built a serverless architecture to analyze the data dire
 In the first part of this project is to build a automatically data pripeline. First, when new data drop in the raw bucket, the pipleline will automatically perform etl process, that transferring the raw data from csv to parquet and convert some string type columns into timestamp, the data will be stored in the processed data bucket. Second, it will load the processed data into Redshift.  
 
 In the second part of the lab, you will use Amazon QuickSight to generate visualizations and meaningful insights from the data set in Amazon S3 using Athena tables you create during the first part of the lab. or you can directly query the same dataset in Amazon S3 from an Amazon Redshift data warehouse using Redshift Spectrum.
+
+![alt text](https://drive.google.com/file/d/1h0bYiGiAzpiBdwaPYr1gWsZqcpe7jkRf/view?usp=sharing)
