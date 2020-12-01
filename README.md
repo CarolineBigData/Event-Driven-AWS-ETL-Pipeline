@@ -9,3 +9,22 @@ In the first part of this project is to build a automatically data pripeline. Fi
 In the second part of the lab, you will use Amazon QuickSight to generate visualizations and meaningful insights from the data set in Amazon S3 using Athena tables you create during the first part of the lab. or you can directly query the same dataset in Amazon S3 from an Amazon Redshift data warehouse using Redshift Spectrum.
 
 ![github-small](https://user-images.githubusercontent.com/58568024/100686927-4fd83580-334d-11eb-9725-409262a52e39.png)
+
+# resources
+
+1. Three S3 buckets to store the following:
+* AWS Glue ETL job script
+* Raw data
+* Processed data
+2. One Lambda functions to do the following:
+* Initiate the ETL workflow upon upload of new data in the raw zone
+3. An AWS Glue database
+4. Two AWS Glue tables to store the following:
+* Raw data
+* Processed data
+5. Two ETL jobs 
+* convert the raw data from CSV into Apache Parquet format 
+* load data into Redshift
+6. One SNS topic to notify when the data sucessfully load into redshift
+7. One QuickSight Analysis
+8. One external table in Redshift Spectrum for query 
