@@ -8,4 +8,4 @@ In the first part of this project is to build a automatically data pripeline. Fi
 
 In the second part of the lab, you will use Amazon QuickSight to generate visualizations and meaningful insights from the data set in Amazon S3 using Athena tables you create during the first part of the lab. or you can directly query the same dataset in Amazon S3 from an Amazon Redshift data warehouse using Redshift Spectrum.
 
-![AWS etl pipeline](https://drive.google.com/file/d/1h0bYiGiAzpiBdwaPYr1gWsZqcpe7jkRf/view?usp=sharing)
+![github-small](https://user-images.githubusercontent.com/58568024/100686927-4fd83580-334d-11eb-9725-409262a52e39.png)
